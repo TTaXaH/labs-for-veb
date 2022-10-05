@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form * {
+  margin: 10px;
+}
+.for-boxes {
+  justify-content: center;
+  display: flex;
+}

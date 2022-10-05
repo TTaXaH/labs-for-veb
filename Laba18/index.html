@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="return false">
+      <input type="text" id="txt" />
+      <div class="for-boxes">
+        <label for="r1">radio1</label>
+        <input type="radio" class="rad-box" value="radio1" name="r1" id="r1" />
+        <label for="r2">radio2</label>
+        <input type="radio" class="rad-box" value="radio2" name="r1" id="r2" />
+      </div>
+      <div class="for-boxes">
+        <label for="ch1">checkbox1</label>
+        <input type="checkbox" class="chk-box" value="1" name="ch1" id="ch1" />
+        <label for="ch2">checkbox2</label>
+        <input type="checkbox" class="chk-box" value="2" name="ch1" id="ch2" />
+        <label for="ch3">checkbox3</label>
+        <input type="checkbox" class="chk-box" value="3" name="ch1" id="ch3" />
+      </div>
+      <select id="select">
+        <option value="op1" selected="selected">Option 1</option>
+        <option value="op2">Option 2</option>
+        <option value="op3">Option 3</option>
+      </select>
+      <input type="button" value="button" id="add_txt" />
+      <input type="reset" value="reset" id="btn_reset" />
+      <input type="submit" value="submit" id="btn_submit" />
+      <textarea id="textarea"> </textarea>
+    </form>
+    <script src="./JS.js"></script>
+  </body>
+</html>
